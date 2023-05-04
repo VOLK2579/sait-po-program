@@ -67,3 +67,16 @@ a{
 a.ooo{
   color: #eceaea;
 }
+
+ul.flex {
+  display: flex; /* flex-контейнер */
+  flex-wrap: wrap; /* многострочный режим */
+  justify-content: space-between; /* элементы распределяются равномерно (первый – в начале строки, последний – в конце) */
+}
+li.flex {
+  display: inline-block;
+  flex-basis: 260px; /* базовая ширина элемента */
+  flex-grow: 1; /* все элементы одинаковой ширины */
+  max-width: 300px;
+  padding: 8px;
+}
