@@ -46,6 +46,19 @@
   html{
       background: url(/hans-isaacson-m9h_7B6RBiM-unsplash.jpg);
   }
+
+  ul.flex {
+    display: flex; /* flex-контейнер */
+    flex-wrap: wrap; /* многострочный режим */
+    justify-content: space-between; /* элементы распределяются равномерно (первый – в начале строки, последний – в конце) */
+  }
+  li.flex {
+      display: inline-block;
+      flex-basis: 260px; /* базовая ширина элемента */
+      flex-grow: 1; /* все элементы одинаковой ширины */
+      max-width: 300px;
+      padding: 8px;
+  }
     </style>
     <img src="/arabica-blog-cover-1024x576.jpg" />
         </div>
